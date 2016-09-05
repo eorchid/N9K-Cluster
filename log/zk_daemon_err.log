@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "zk_daemon.py", line 184, in <module>
+    daemon.restart()
+  File "zk_daemon.py", line 106, in restart
+    self.start()
+  File "zk_daemon.py", line 77, in start
+    self._run()
+  File "zk_daemon.py", line 154, in _run
+    print self.zkn9k.zk.get("/N9K/ping")
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/client.py", line 1026, in get
+    return self.get_async(path, watch).get()
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/handlers/utils.py", line 72, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+Traceback (most recent call last):
+  File "zk_daemon.py", line 178, in <module>
+    daemon.start()
+  File "zk_daemon.py", line 77, in start
+    self._run()
+  File "zk_daemon.py", line 154, in _run
+    print self.zkn9k.zk.get("/N9K/ping")
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/client.py", line 1026, in get
+    return self.get_async(path, watch).get()
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/handlers/utils.py", line 72, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+Traceback (most recent call last):
+  File "zk_daemon.py", line 178, in <module>
+    daemon.start()
+  File "zk_daemon.py", line 77, in start
+    self._run()
+  File "zk_daemon.py", line 154, in _run
+    print self.zkn9k.zk.get("/N9K/ping")
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/client.py", line 1026, in get
+    return self.get_async(path, watch).get()
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/handlers/utils.py", line 72, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+Traceback (most recent call last):
+  File "zk_daemon.py", line 178, in <module>
+    daemon.start()
+  File "zk_daemon.py", line 77, in start
+    self._run()
+  File "zk_daemon.py", line 154, in _run
+    print self.zkn9k.zk.get("/N9K/ping")
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/client.py", line 1026, in get
+    return self.get_async(path, watch).get()
+  File "/Library/Python/2.7/site-packages/kazoo-2.2.1-py2.7.egg/kazoo/handlers/utils.py", line 72, in get
+    raise self._exception
+kazoo.exceptions.ConnectionClosedError: Connection has been closed
+[2016-06-13 15:34:19,226] N9K_zk_logger:INFO: Start ZK Daemon
+[2016-06-13 15:35:33,003] N9K_zk_logger:INFO: Start ZK Daemon
+[2016-06-13 15:36:03,803] N9K_zk_logger:INFO: Start ZK Daemon
+[2016-06-13 15:36:57,984] N9K_zk_logger:INFO: Start ZK Daemon
+[2016-06-13 15:38:12,086] N9K_zk_logger:INFO: Start ZK Daemon
+[2016-06-13 16:10:15,687] N9K_zk_logger:INFO: Start ZK Daemon
